@@ -1,0 +1,36 @@
+/* Общие стили */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Зеленый блок (header) */
+.hero {
+  background-color: #6b8e23; /* Зеленый цвет */
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+/* Белая плашка (секция с логотипами) */
+.logo-bar {
+  background-color: white;
+  padding: 20px 0;
+  margin-top: -50px; /* Отрицательный отступ, чтобы плашка наехала на зеленую часть */
+  box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.6); /* Тень для эффекта */
+  z-index: 1;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.logo-container img {
+  max-width: 100px;
+  height: auto;
+}
